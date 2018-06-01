@@ -35,7 +35,7 @@ include "version.php";
  		display: inline
  		}		
  	</style>
-    <title><?php echo $NXDNREFLECTORNAME; ?> - NXDNReflector-Dashboard by IU7IGU</title>
+    <title><?php echo NXDNREFLECTORNAME; ?> - NXDNReflector-Dashboard by IU7IGU</title>
   </head>
   <body>
   <div class="page-header" style="position:relative;">
