@@ -1,5 +1,5 @@
 # Linux Step-By-Step
-This short howto describes step-by-step how to install the YSFReflector-Dashboard on a system using a Debian Linux distribution.
+This short howto describes step-by-step how to install the NXDNReflector-Dashboard on a system using a Debian Linux distribution.
 
 ##Installation Steps
 1. Update your system:
@@ -48,19 +48,19 @@ This short howto describes step-by-step how to install the YSFReflector-Dashboar
 
 	If you are using Debian Jessie, run:
 
-	>sudo cp -R /home/<username>/YSFReflector-Dashboard/* /var/www/html/	
+	>sudo cp -R /home/<username>/NXDNReflector-Dashboard/* /var/www/html/	
 
 	If you are using Debian Wheezy, run:
 
-	>sudo cp -R /home/<username>/YSFReflector-Dashboard/* /var/www/
+	>sudo cp -R /home/<username>/NXDNReflector-Dashboard/* /var/www/
 
 9. To make sure the dashboard is served instead of the default "index.html", cd into the webroot /var/www/html respectively /var/www and remove that file:
 
 	>sudo rm index.html
 
-10. Finally, you need to configure the dashboard by pointing your browser to http://IP-OF-YOUR-YSFREFLECTOR/setup.php . This will create /var/www/html/config/config.php respectively /var/www/config/config.php which contains your custom settings. 
+10. Finally, you need to configure the dashboard by pointing your browser to http://IP-OF-YOUR-NXDNREFLECTOR/setup.php . This will create /var/www/html/config/config.php respectively /var/www/config/config.php which contains your custom settings. 
 
-Now the dashboard should be reachable via http://IP-OF-YOUR-YSFREFLECTOR/
+Now the dashboard should be reachable via http://IP-OF-YOUR-NXDNREFLECTOR/
 
 ##Configuration Of Dashboard
 When configuring the dashboard, make sure to set the correct paths for logs etc. If they are wrong, no last-heard or similar information will be shown on the dashboard!
